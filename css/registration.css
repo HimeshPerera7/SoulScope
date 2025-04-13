@@ -1,0 +1,233 @@
+/* Registration Page Specific Styles */
+/*.registration-page {*/
+/*    background: linear-gradient(135deg, #fd2a75, #43f5e9);*/
+/*    height: calc(100vh - 130px);*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    padding: 2rem;*/
+/*}*/
+
+.registration-page {
+    background-color:hsla(0,0%,100%,1);
+    background-image:
+    radial-gradient(at 71% 13%, #ffb87a 0px, transparent 50%),
+    radial-gradient(at 81% 95%, #1fddff 0px, transparent 50%),
+    radial-gradient(at 0% 50%, #ffdbde 0px, transparent 50%),
+    radial-gradient(at 12% 77%, #ff85ad 0px, transparent 50%),
+    radial-gradient(at 0% 0%, #ff85a7 0px, transparent 50%);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+} 
+
+.registration-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    min-height: 580px;
+    width: 100%;
+    padding: 2.5rem;
+    backdrop-filter: blur(10px);
+}
+
+.registration-header {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.registration-header h1 {
+    font-size: 2.5rem;
+    color: #fd2a75;
+    margin-bottom: 0.5rem;
+}
+
+.registration-header p {
+    color: #333;
+    outline-color: #ff5c3a;
+    font-weight: bold;
+}
+
+.registration-header .error-text {
+    color: red;
+    font-weight: bold;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    /*gap: 10px;*/
+}
+
+.date-inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.date-inputs input {
+    width: 100% !important;
+}
+
+.registration-form label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.name-inputs input,
+.date-inputs input,
+.registration-form input, 
+.registration-form select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.name-inputs input:focus,
+.date-inputs input:focus,
+.registration-form input:focus, 
+.registration-form select:focus {
+    border-color: #fd2a75;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(78, 205, 196, 0.2);
+}
+
+.gender-selection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center !important;
+    justify-content: start;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    gap: 25px;
+}
+
+.gender-inner input {
+    margin: 0 0 0 10px !important;
+    padding: 0 !important;
+}
+
+.gender-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center !important;
+}
+
+/* Style for the agreement paragraph */
+.agreement {
+    font-size: 14px; /* Adjust font size */
+    color: #333; /* Dark grey color for the text */
+    text-align: center; /* Centers the paragraph */
+    margin-top: 20px; /* Space above the paragraph */
+    line-height: 1.6; /* Line height for better readability */
+  }
+  
+  /* Style for the link inside the agreement */
+  .agreement a {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes the link text bold */
+  }
+  
+  /* Change link color on hover */
+  .agreement a:hover {
+    color: #0056b3; /* Darker blue color when hovering */
+    text-decoration: underline; /* Underline the link on hover */
+  }
+
+
+.registration-submit-btn {
+    background-color: #fd2a75;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.registration-submit-btn:hover {
+    background-color: #ff5c3a;
+}
+
+.error-messages {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 196, 196, 0.1);
+    border-left: 4px solid red;
+    border-radius: 5px;
+}
+
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.login-link a {
+    color: #fd2a75;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    color: #ff5c3a;
+    text-decoration: underline;
+}
+
+.role-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.role-switch input {
+    display: none;
+}
+
+.role-switch label {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #e0e0e0;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.role-switch input:checked + label {
+    background-color: #fd2a75;
+    color: white;
+    border-color: #fd2a75;
+}
+
+.role-switch label:first-of-type {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.role-switch label:last-of-type {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}

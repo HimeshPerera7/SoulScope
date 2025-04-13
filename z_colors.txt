@@ -1,0 +1,35 @@
+Primary Colors:
+Gradient Colors (Logo):
+
+#fd2a75 (Pinkish Red)
+#ff5c3a (Vibrant Orange)
+#43f5e9 (Blue) 
+#c3cfe2 (Gray)
+
+#042782
+#dd0056
+Use these as the main accent colors for 
+buttons, links, highlights, and hover effects.
+
+Secondary Colors:
+Dark Background (Contrast):
+#1e1e2e (Deep Navy Blue): For 
+headers, navigation bars, and footer backgrounds.
+
+Light Background (Neutral):
+#f5f5f5 (Soft White): For the body background or content sections.
+#fffaf0 (Ivory): For form sections or to add warmth.
+
+Neutral Grays (Text & Dividers):
+#333333 (Dark Gray): For main text content.
+#808080 (Medium Gray): For subtitles or less important text.
+#d3d3d3 (Light Gray): For dividers, borders, or subtle backgrounds.
+
+Accent Colors:
+Highlight Colors (Complementary):
+#ffde59 (Golden Yellow): Use sparingly for 
+call-to-action elements, like buttons or important messages, to create a strong contrast.
+#7fda89 (Soft Mint Green): Use for 
+success messages or subtle decorative touches.
+
+https://onlinephp.io/password-hash --for password hash manually 
