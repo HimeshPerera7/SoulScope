@@ -1,6 +1,0 @@
-Admin:
-email- hp@admin.com
-password- 90909090
-
-User:
-You can create your own user account
